@@ -6,12 +6,13 @@ function connectDB(){
     const connection = mongoose.connect
 
     connection.on('connected', () => {
-        console.log('MongoDB connected')
+        console.log('MongoDB connected ok')
     })
 
     connection.on('error', (err) => {
             console.log('Can not connect to MongoDB')
-})}
+    })
+}
 
 connectDB()
 module.exports = mongoose
