@@ -1,7 +1,7 @@
-import { default as mongoose } from "mongoose";
+const mongoose = require("mongoose");
 
 function connectDB(){
-    mongoose.connect('mongodb+srv://tanvir:tanvir@user.8hirx51.mongodb.net/car-rent', {useUnifiedTopology: true,useNewUrlParser: true});
+    mongoose.connect('mongodb+srv://me:me@cluster0.hy5ioh7.mongodb.net/project-0' , {useUnifiedTopology: true,useNewUrlParser: true});
 
     const connection = mongoose.connect
 
