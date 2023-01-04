@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const port = porcess.env.port || 5000
+const port = process.env.port || 5000
 const dbconnection = require('./db')
 
 app.get('/', (req, res) => res.send('Hello World!'))
