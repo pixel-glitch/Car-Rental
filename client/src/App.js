@@ -6,10 +6,10 @@ import Login from './pages/Login'
 import Register from './pages/Register'
 import BookingCar from './pages/BookingCar'
 import { BrowserRouter,Route } from "react-router-dom"; //marked
+
 function App() {
   return (
     <div className="App">
-
       <BrowserRouter>
           <Route path='/' exact component={Home} />
           <Route path='/home' exact component={Home} />
