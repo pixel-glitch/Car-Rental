@@ -1,5 +1,5 @@
 const initialData = {
-    cars : []
+    cars : [0]
 };
 
 export const carsReducer = (state=initialData, action)=>{
