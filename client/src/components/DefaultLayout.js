@@ -1,4 +1,5 @@
 import React from 'react'
+import { getAllCars } from '../redux/action/carsAction'
 
 function DefaultLayout(props) {
   return (
@@ -9,7 +10,6 @@ function DefaultLayout(props) {
 
             <h1>RentaCar</h1>
             <button>User</button>
-            
 
           </div>
         </div>

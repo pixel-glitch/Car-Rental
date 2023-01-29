@@ -1,11 +1,19 @@
 const initialData = {
-    cars : [0]
+    cars : []
 };
 
 export const carsReducer = (state=initialData, action)=>{
 
     switch(action.type)
     {      
-        default:return state
+        case 'GET_ALL_CARS':{
+
+            return {
+               ...state,
+                cars: action.payload
+            }
+        }
+        default:
+            return state;
     }
 }
